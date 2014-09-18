@@ -1,4 +1,4 @@
-setwd("/Users/jameslondall/Dropbox/DS Course/R/RPrograming")
+setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming")
 
 corr <- function(directory, threshold = 0) {
   ## 'directory' is a character vector of length 1 indicating
@@ -13,7 +13,7 @@ corr <- function(directory, threshold = 0) {
 
   directory <- paste('/Users/jameslondall/Documents/Data/DS Course/',directory,sep="")
   files<-as.character(list.files(directory))
-  files_paths<-paste(directory, all_files,sep="/")
+  files_paths<-paste(directory, files,sep="/")
   
   obs <-complete("specdata",1:332)  
   ids <- obs[obs$nobs > threshold,]$id

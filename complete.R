@@ -1,10 +1,10 @@
-setwd("/Users/jameslondall/Dropbox/DS Course/R/RPrograming")
+setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming")
 
 complete <- function(directory, id = 1:332) {
   
   directory <- paste('/Users/jameslondall/Documents/Data/DS Course/',directory,sep="")
   files<-as.character(list.files(directory))
-  files_paths<-paste(directory, all_files,sep="/")
+  files_paths<-paste(directory, files,sep="/")
   
   df_out <- rep(0,length(id))
   j <- 1
