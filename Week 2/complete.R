@@ -1,4 +1,4 @@
-setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming")
+setwd("/Users/jameslondall/Dropbox/DS Course/Week 2/RPrograming/Week 2")
 
 complete <- function(directory, id = 1:332) {
   

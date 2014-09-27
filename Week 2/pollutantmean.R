@@ -1,4 +1,4 @@
-setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming")
+setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming/Week 2")
 
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   directory <- paste('/Users/jameslondall/Documents/Data/DS Course/',directory,sep="")

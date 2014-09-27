@@ -1,4 +1,4 @@
-setwd("/Users/jameslondall/Dropbox/DS Course/RPrograming")
+setwd("/Users/jameslondall/Dropbox/DS Course/Week 2/RPrograming/Week 2")
 
 corr <- function(directory, threshold = 0) {
   ## 'directory' is a character vector of length 1 indicating
